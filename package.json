@@ -1,0 +1,12 @@
+{
+    "name": "retosemanal06---lista-de-compras-con-localstorage",
+    "version": "1.0.0",
+    "description": "Animatch es un juego de matches con personajes de Anime",
+    "main": "app.js",
+    "scripts": {
+        "test": ""
+    },
+    "keywords": [],
+    "author": "DevCito",
+    "license": "ISC"
+}
