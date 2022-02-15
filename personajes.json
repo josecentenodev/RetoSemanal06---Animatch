@@ -1,0 +1,141 @@
+[{
+        "id": 1,
+        "nombre": "Sosuke Aizen",
+        "descripcion": "Quiere eliminar la Sociedad de Almas",
+        "puntaje": 80,
+        "url": "./img/Aizen.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Dio Brando",
+        "descripcion": "Tiene estilo y es un gran villano",
+        "puntaje": 90,
+        "url": "./img/Brando.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Donquixote Doflamingo",
+        "descripcion": "Antiguo Guerrero del Mar, Bróker más influyente de los Bajos Fondos, AKA Joker. El Gobierno Mundial pide una fortuna por su Cabeza.",
+        "puntaje": 85,
+        "url": "./img/Doflamingo.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Eren Jaeger",
+        "descripcion": "El mayor de los héroes y el mejor de los villanos. Lo llevo tatuado en el pecho.",
+        "puntaje": 100,
+        "url": "./img/Eren.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Freezer",
+        "descripcion": "Puede transformarse en varias formas para esconder su poder de combate y poder darle uso en situaciones de riesgo.",
+        "puntaje": 75,
+        "url": "./img/Freezer.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Edward Elric",
+        "descripcion": "El alquimista estatal más joven en la historia del país ficticio Amestris.",
+        "puntaje": 85,
+        "url": "./img/Elric.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Son Goku",
+        "descripcion": "Muere y revive porque no puede aceptar la derrota.",
+        "puntaje": 85,
+        "url": "./img/Goku.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Saitama",
+        "descripcion": "Solo su puño le basta para vencer a sus oponentes, no parece divertido, pero lo saben dibujar al Anime",
+        "puntaje": 90,
+        "url": "./img/Saitama.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Monkey D. Luffy",
+        "descripcion": "Luffy Sombrero de Paja comió una fruta del diablo llamada Gomu Gomu que le convirtió en un hombre de goma.",
+        "puntaje": 90,
+        "url": "./img/Luffy.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Naruto Uzumaki",
+        "descripcion": "El menos capáz decían",
+        "puntaje": 95,
+        "url": "./img/Naruto.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Light Yagami",
+        "descripcion": "Light es un adolescente cuyo intelecto y capacidad para formular estrategias son su mayor fortaleza.",
+        "puntaje": 70,
+        "url": "./img/Light.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Griffith",
+        "descripcion": "De apariencia pulcra y andrógina que antiguamente era el líder de la Banda del Halcón, la banda de mercenarios a la que pertenecía Guts.",
+        "puntaje": 80,
+        "url": "./img/Griffith.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Fuhrer King Bradley",
+        "descripcion": "Uno de los siete Homunculi. Bradley fue tambien el original Führer de Amestris.",
+        "puntaje": 80,
+        "url": "./img/King.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Guts",
+        "descripcion": "Si uno no es capaz de hacer lo que le plazca con su propia vida, está mejor muerto.",
+        "puntaje": 100,
+        "url": "./img/Guts.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Uchiha Itachi",
+        "descripcion": "Ninja renegado considerado un prodigio y portador de numerosas cualidades sobresalientes.",
+        "puntaje": 85,
+        "url": "./img/Itachi.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Levi Ackerman",
+        "descripcion": "Qué Hombre Levi! Husbando de todes.",
+        "puntaje": 95,
+        "url": "./img/Levi.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Roronoa Zoro",
+        "descripcion": " Fue el primer miembro en unirse a Luffy como tripulante.",
+        "puntaje": 69,
+        "url": "./img/Zoro.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Shinji Itadori",
+        "descripcion": "El más lloron de toda la lista",
+        "puntaje": 80,
+        "url": "./img/Shinji.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Vegeta",
+        "descripcion": "Nació en cuna de oro y siempre se jactó de ello. Re malote.",
+        "puntaje": 85,
+        "url": "./img/Vegeta.jpg"
+    },
+    {
+        "id": 20,
+        "nombre": "Kamado Tanjiro",
+        "descripcion": "Leí un post que decía que los jóvenes admiran más a Tanjiro que a sus padres y la verdad es que no me considero tan jóven",
+        "puntaje": 100,
+        "url": "./img/Tanjiro.jpg"
+    }
+]

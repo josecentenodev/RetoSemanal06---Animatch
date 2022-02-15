@@ -6,24 +6,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Lista de Compras" />
-    <meta name="keywords" content="Lista, Todolist, Javascript" />
+    <meta name="description" content="Animatch es un juego de matches con personajes de Anime" />
+    <meta name="keywords" content="Anime, Matches" />
     <meta name="author" content="Centeno José Antonio" />
     <meta name="copyright" content="DevCito 2022" />
     <!-- ROBOTS -->
     <meta name="robots" content="index nofollow" />
-    <link rel="icon" href="https://img.icons8.com/doodle/48/000000/scroll.png" type="image/png" />
-    <meta property="og:title" content="Lista de Compras DevCito" />
-    <meta property="og:description" content="Otra lista de compra mas" />
+    <link rel="icon" href="https://img.icons8.com/office/16/000000/pokemon.png" type="image/png" />
+    <meta property="og:title" content="Animatch, Juego de Matches" />
+    <meta property="og:description" content="Animatch es un juego de matches con personajes de Anime" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="https://www.google.com/imgres?imgurl=https%3A%2F%2Flos40.cl%2Fwp-content%2Fuploads%2F2021%2F11%2Feren-jaeger-nueva-foto-temporada-final-shingeki-no-kyojin-1024x576.jpg&imgrefurl=https%3A%2F%2Flos40.cl%2F2021%2Fshingeki-no-kyojin-presenta-nuevo-poster-promocional-con-eren-jaeger-como-protagonista-97890.html&tbnid=p-8uYkhBtLR0eM&vet=12ahUKEwjnl67gp_r1AhW8MrkGHXiWAC8QMygQegUIARD8AQ..i&docid=_EUsi8qAozq4dM&w=1024&h=576&q=eren%20jaeger&hl=es&ved=2ahUKEwjnl67gp_r1AhW8MrkGHXiWAC8QMygQegUIARD8AQ"
+    />
     <meta property="og:url" content="https://www.linkedin.com/in/jose-antonio-centeno-a379b61b6/" />
-    <meta property="twitter:title" content="Lista de Compras DevCito" />
-    <meta property="twitter:description" content="Otra lista de compra mas" />
+    <meta property="twitter:title" content="Animatch, Juego de Matches" />
+    <meta property="twitter:description" content="Animatch es un juego de matches con personajes de Anime" />
     <meta property="twitter:type" content="website" />
-    <meta property="twitter:image" content="" />
+    <meta property="twitter:image" content="https://www.google.com/imgres?imgurl=https%3A%2F%2Flos40.cl%2Fwp-content%2Fuploads%2F2021%2F11%2Feren-jaeger-nueva-foto-temporada-final-shingeki-no-kyojin-1024x576.jpg&imgrefurl=https%3A%2F%2Flos40.cl%2F2021%2Fshingeki-no-kyojin-presenta-nuevo-poster-promocional-con-eren-jaeger-como-protagonista-97890.html&tbnid=p-8uYkhBtLR0eM&vet=12ahUKEwjnl67gp_r1AhW8MrkGHXiWAC8QMygQegUIARD8AQ..i&docid=_EUsi8qAozq4dM&w=1024&h=576&q=eren%20jaeger&hl=es&ved=2ahUKEwjnl67gp_r1AhW8MrkGHXiWAC8QMygQegUIARD8AQ"
+    />
     <meta property="twitter:url" content="https://www.linkedin.com/in/jose-antonio-centeno-a379b61b6/" />
     <title>Animatch Game</title>
+    <!-- FONTS DE GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <!-- FONTS DE GOOGLE -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
 </head>
@@ -32,20 +39,149 @@
     <header>
         <h1>Animatch</h1>
     </header>
-    <section id="inicioJuego">
+    <section id="inicioJuego" class="inicioJuego">
+        <form id="formulario" class="inicioJuego__nombres">
+            <label for="nombre1">Humane 1</label>
+            <input type="text" name="nombre1" id="nombre1">
 
+            <label for="nombre2">Humane 2</label>
+            <input type="text" name="nombre2" id="nombre2">
+
+            <button id="botonJugar" class="but inicioJuego__boton"><i class="fa-solid fa-play"></i><p>Jugar!</p></button>
+        </form>
+
+        <div id="historialJuegos" class="historialJuegos">
+            <ul id="listaJuegos" class="listaJuegos">
+                <li class="listaJuegos__Juego">
+                    <p class="listaJuegos__texto">Jose Y Gina</p>
+                    <div class="listaJuegos__botonera"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-trash-can"></i></div>
+                </li>
+                <li class="listaJuegos__Juego">
+                    <p class="listaJuegos__texto">Jose Y Gina</p>
+                    <div class="listaJuegos__botonera"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-trash-can"></i></div>
+                </li>
+                <li class="listaJuegos__Juego">
+                    <p class="listaJuegos__texto">Jose Y Gina</p>
+                    <div class="listaJuegos__botonera"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-trash-can"></i></div>
+                </li>
+            </ul>
+        </div>
     </section>
     <!-- Ver Cartas -->
-    <section id="verCartas">
-
+    <section id="verJuego" class="">
+        <i id="btnCerrarVC" class="fa-solid fa-xmark"></i>
+        <!-- Carousel -->
+        <div class="verCartas carousel slide" data-ride="carousel" id="juegoCarousel">
+            <!-- Carousel inner -->
+            <div class="carousel-inner">
+                <!-- Carousel item -->
+                <div class="carousel-item active">
+                    <h2 class="verCartas__header">Jose</h2>
+                    <div class="carta">
+                        <img class="carta__imagen" src="./img/Luffy.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header">Monkey D. Luffy</h3>
+                        <p class="carta__texto">Luffy Sombrero de Paja comió una fruta del diablo llamada Gomu Gomu que le convirtió en un hombre de goma.</p>
+                    </div>
+                </div>
+                <!-- Carousel item -->
+                <div class="carousel-item">
+                    <h2 class="verCartas__header">Jose</h2>
+                    <div class="carta">
+                        <img class="carta__imagen" src="./img/King.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header">Fuhrer King Bradley</h3>
+                        <p class="carta__texto">Uno de los siete Homunculi. Bradley fue tambien el original Führer de Amestris.</p>
+                    </div>
+                </div>
+                <!-- Carousel item -->
+                <div class="carousel-item">
+                    <h2 class="verCartas__header">Jose</h2>
+                    <div class="carta">
+                        <img class="carta__imagen" src="./img/Eren.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header">Eren Jaegar</h3>
+                        <p class="carta__texto">El mayor de los héroes y el mejor de los villanos. Lo llevo tatuado en el pecho.</p>
+                    </div>
+                </div>
+                <!-- Carousel item -->
+                <div class="carousel-item">
+                    <h2 class="verCartas__header">Gina</h2>
+                    <div class="carta">
+                        <img class="carta__imagen" src="./img/Elric.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header">Elric Edward</h3>
+                        <p class="carta__texto">El fullmetal mas joven de la historia</p>
+                    </div>
+                </div>
+                <!-- Carousel item -->
+                <div class="carousel-item">
+                    <h2 class="verCartas__header">Gina</h2>
+                    <div class="carta">
+                        <img class="carta__imagen" src="./img/Levi.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header">Levi Ackerman</h3>
+                        <p class="carta__texto">Que no se enoje porque sonamos</p>
+                    </div>
+                </div>
+                <!-- Carousel item -->
+                <div class="carousel-item">
+                    <h2 class="verCartas__header">Gina</h2>
+                    <div class="carta">
+                        <img class="carta__imagen" src="./img/Guts.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header">Guts</h3>
+                        <p class="carta__texto">Persevera y triunfaras pero el mundo seguira siendo una mierda</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#juegoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#juegoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#juegoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#juegoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#juegoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#juegoCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#juegoCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#juegoCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+        </div>
     </section>
     <!-- Ver Resultado -->
-    <section id="verResultado">
-
+    <section id="verResultado" class="">
+        <div class="resultado__botonera">
+            <div class="resultado__botonera--ver">
+                <button class="but">Ver Resultado <i class="fa-solid fa-eye"></i></button>
+            </div>
+            <div class="resultado__botonera--volver">
+                <button class="but">Volver a Tirar <i class="fa-solid fa-arrow-rotate-right"></i></button></i>
+            </div>
+        </div>
     </section>
     <!-- Ver Match -->
-    <section id="verMatch">
-
+    <section id="verMatch" class="">
+        <!-- Resultados -->
+        <div class="resultados">
+            <div class="resultados__resultado">
+                <h2>Jose</h2>
+                <div class="resultado__imagenes">
+                    <img src="./img/Luffy.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img src="./img/King.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img src="./img/Eren.jpg" class="imagenes__imagen" alt="Imagen de Resultado">
+                </div>
+            </div>
+            <div class="resultados__resultado">
+                <h2>Gina</h2>
+                <div class="resultado__imagenes">
+                    <img src="./img/Elric.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img src="./img/Levi.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img src="./img/Guts.jpg" class="imagenes__imagen" alt="Imagen de Resultado">
+                </div>
+            </div>
+        </div>
+        <!-- Match -->
+        <h1 id="match" class="esMatch">SI</h1>
+        <!-- Botones -->
+        <div class="verMatch__botonera">
+            <button class="but">Guardar</button>
+            <button class="but">Salir</button>
+        </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
