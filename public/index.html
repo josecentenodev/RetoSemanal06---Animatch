@@ -47,96 +47,101 @@
             <label for="nombre2">Humane 2</label>
             <input type="text" name="nombre2" id="nombre2">
 
-            <button id="botonJugar" class="but inicioJuego__boton"><i class="fa-solid fa-play"></i><p>Jugar!</p></button>
+            <input value="Jugar!" type="submit" id="botonJugar" class="but inicioJuego__boton">
+            </input>
         </form>
 
         <div id="historialJuegos" class="historialJuegos">
             <ul id="listaJuegos" class="listaJuegos">
-                <li class="listaJuegos__Juego">
+                <!-- <li class="listaJuegos__Juego">
                     <p class="listaJuegos__texto">Jose Y Gina</p>
                     <div class="listaJuegos__botonera"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-trash-can"></i></div>
-                </li>
-                <li class="listaJuegos__Juego">
-                    <p class="listaJuegos__texto">Jose Y Gina</p>
-                    <div class="listaJuegos__botonera"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-trash-can"></i></div>
-                </li>
-                <li class="listaJuegos__Juego">
-                    <p class="listaJuegos__texto">Jose Y Gina</p>
-                    <div class="listaJuegos__botonera"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-trash-can"></i></div>
-                </li>
+                </li> -->
             </ul>
         </div>
     </section>
+    <section id="intervalo" class="off">
+        <div id="fountainG">
+            <div id="fountainG_1" class="fountainG"></div>
+            <div id="fountainG_2" class="fountainG"></div>
+            <div id="fountainG_3" class="fountainG"></div>
+            <div id="fountainG_4" class="fountainG"></div>
+            <div id="fountainG_5" class="fountainG"></div>
+            <div id="fountainG_6" class="fountainG"></div>
+            <div id="fountainG_7" class="fountainG"></div>
+            <div id="fountainG_8" class="fountainG"></div>
+        </div>
+    </section>
     <!-- Ver Cartas -->
-    <section id="verJuego" class="">
-        <i id="btnCerrarVC" class="fa-solid fa-xmark"></i>
+    <section id="verJuego" class="off">
+        <i id="btnCerrarVC" class="fa-solid fa-arrow-right"></i>
         <!-- Carousel -->
         <div class="verCartas carousel slide" data-ride="carousel" id="juegoCarousel">
             <!-- Carousel inner -->
             <div class="carousel-inner">
                 <!-- Carousel item -->
                 <div class="carousel-item active">
-                    <h2 class="verCartas__header">Jose</h2>
+                    <h2 class="verCartas__header" id="hum1">humane 1</h2>
                     <div class="carta">
-                        <img class="carta__imagen" src="./img/Luffy.jpg" alt="Imagen de Personaje Anime">
-                        <h3 class="carta__header">Monkey D. Luffy</h3>
-                        <p class="carta__texto">Luffy Sombrero de Paja comió una fruta del diablo llamada Gomu Gomu que le convirtió en un hombre de goma.</p>
+                        <img class="carta__imagen" id="img1" src="./img/Luffy.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header" id="nom1">nombre 1</h3>
+                        <p class="carta__texto" id="tex1">texto 1</p>
                     </div>
                 </div>
                 <!-- Carousel item -->
                 <div class="carousel-item">
-                    <h2 class="verCartas__header">Jose</h2>
+                    <h2 class="verCartas__header" id="hum2">humane 1</h2>
                     <div class="carta">
-                        <img class="carta__imagen" src="./img/King.jpg" alt="Imagen de Personaje Anime">
-                        <h3 class="carta__header">Fuhrer King Bradley</h3>
-                        <p class="carta__texto">Uno de los siete Homunculi. Bradley fue tambien el original Führer de Amestris.</p>
+                        <img class="carta__imagen" id="img2" src="./img/King.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header" id="nom2">nombre 2</h3>
+                        <p class="carta__texto" id="tex2">texto 2</p>
                     </div>
                 </div>
                 <!-- Carousel item -->
                 <div class="carousel-item">
-                    <h2 class="verCartas__header">Jose</h2>
+                    <h2 class="verCartas__header" id="hum3">humane 1</h2>
                     <div class="carta">
-                        <img class="carta__imagen" src="./img/Eren.jpg" alt="Imagen de Personaje Anime">
-                        <h3 class="carta__header">Eren Jaegar</h3>
-                        <p class="carta__texto">El mayor de los héroes y el mejor de los villanos. Lo llevo tatuado en el pecho.</p>
+                        <img class="carta__imagen" id="img3" src="./img/Eren.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header" id="nom3">nombre 3</h3>
+                        <p class="carta__texto" id="tex3">texto 3</p>
                     </div>
                 </div>
                 <!-- Carousel item -->
                 <div class="carousel-item">
-                    <h2 class="verCartas__header">Gina</h2>
+                    <h2 class="verCartas__header" id="hum4">humane 2</h2>
                     <div class="carta">
-                        <img class="carta__imagen" src="./img/Elric.jpg" alt="Imagen de Personaje Anime">
-                        <h3 class="carta__header">Elric Edward</h3>
-                        <p class="carta__texto">El fullmetal mas joven de la historia</p>
+                        <img class="carta__imagen" id="img4" src="./img/Elric.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header" id="nom4">nombre 4</h3>
+                        <p class="carta__texto" id="tex4">texto 4</p>
                     </div>
                 </div>
                 <!-- Carousel item -->
                 <div class="carousel-item">
-                    <h2 class="verCartas__header">Gina</h2>
+                    <h2 class="verCartas__header" id="hum5">humane 2</h2>
                     <div class="carta">
-                        <img class="carta__imagen" src="./img/Levi.jpg" alt="Imagen de Personaje Anime">
-                        <h3 class="carta__header">Levi Ackerman</h3>
-                        <p class="carta__texto">Que no se enoje porque sonamos</p>
+                        <img class="carta__imagen" id="img5" src="./img/Levi.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header" id="nom5">nombre 5</h3>
+                        <p class="carta__texto" id="tex5">texto 5</p>
                     </div>
                 </div>
                 <!-- Carousel item -->
                 <div class="carousel-item">
-                    <h2 class="verCartas__header">Gina</h2>
+                    <h2 class="verCartas__header" id="hum6">humane 2</h2>
                     <div class="carta">
-                        <img class="carta__imagen" src="./img/Guts.jpg" alt="Imagen de Personaje Anime">
-                        <h3 class="carta__header">Guts</h3>
-                        <p class="carta__texto">Persevera y triunfaras pero el mundo seguira siendo una mierda</p>
+                        <img class="carta__imagen" id="img6" src="./img/Guts.jpg" alt="Imagen de Personaje Anime">
+                        <h3 class="carta__header" id="nom6">nombre 6</h3>
+                        <p class="carta__texto" id="tex6">texto 6</p>
                     </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#juegoCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
-              </button>
+            </button>
             <button class="carousel-control-next" type="button" data-bs-target="#juegoCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-              </button>
+            </button>
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#juegoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#juegoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -148,30 +153,35 @@
         </div>
     </section>
     <!-- Ver Resultado -->
-    <section id="verResultado" class="">
+    <section id="verResultado" class="off">
         <div class="resultado__botonera">
-            <div class="resultado__botonera--ver">
-                <button class="but">Ver Resultado <i class="fa-solid fa-eye"></i></button>
+            <div>
+                <button id="btnVer" class="but">Ver Resultado <i class="fa-solid fa-eye"></i></button>
             </div>
-            <div class="resultado__botonera--volver">
-                <button class="but">Volver a Tirar <i class="fa-solid fa-arrow-rotate-right"></i></button></i>
+            <div>
+                <button id="btnVolverTirar" class="but resultado__botonera--volver">Volver a Tirar <i class="fa-solid fa-arrow-rotate-right"></i></button>
+            </div>
+            <div>
+                <button id="btnVolver" class="but resultado__botonera--volver off">Menu</button>
             </div>
         </div>
     </section>
     <!-- Ver Match -->
-    <section id="verMatch" class="">
+    <section id="verMatch" class="off">
         <!-- Resultados -->
         <div class="resultados">
             <div class="resultados__resultado">
-                <h2>Jose</h2>
+                <h2 id="matchHumane1">Jose</h2>
                 <div class="resultado__imagenes">
-                    <img src="./img/Luffy.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img src="./img/King.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img src="./img/Eren.jpg" class="imagenes__imagen" alt="Imagen de Resultado">
+                    <img data-puntaje="" id='mimg11' src="./img/Luffy.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img data-puntaje="" id='mimg12' src="./img/King.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img data-puntaje=""
+                        id='mimg13' src="./img/Eren.jpg" class="imagenes__imagen" alt="Imagen de Resultado">
                 </div>
             </div>
             <div class="resultados__resultado">
-                <h2>Gina</h2>
+                <h2 id="matchHumane2">Gina</h2>
                 <div class="resultado__imagenes">
-                    <img src="./img/Elric.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img src="./img/Levi.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img src="./img/Guts.jpg" class="imagenes__imagen" alt="Imagen de Resultado">
+                    <img data-puntaje="" id='mimg21' src="./img/Elric.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img data-puntaje="" id='mimg22' src="./img/Levi.jpg" class="imagenes__imagen" alt="Imagen de Resultado"><img data-puntaje=""
+                        id='mimg23' src="./img/Guts.jpg" class="imagenes__imagen" alt="Imagen de Resultado">
                 </div>
             </div>
         </div>
@@ -179,8 +189,8 @@
         <h1 id="match" class="esMatch">SI</h1>
         <!-- Botones -->
         <div class="verMatch__botonera">
-            <button class="but">Guardar</button>
-            <button class="but">Salir</button>
+            <button id="guardar" class="but">Guardar</button>
+            <button id="salir" class="but">Salir</button>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
